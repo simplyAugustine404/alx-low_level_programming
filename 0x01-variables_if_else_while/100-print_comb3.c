@@ -16,8 +16,8 @@ int main(void)
 		{
 			if (n != m && n > m)
 			{
-				putchar(n);
 				putchar(m);
+				putchar(n);
 				putchar(44);
 				putchar(32);
 				
