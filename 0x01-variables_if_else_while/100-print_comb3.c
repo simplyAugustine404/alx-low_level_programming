@@ -18,8 +18,11 @@ int main(void)
 			{
 				putchar(m);
 				putchar(n);
-				putchar(44);
-				putchar(32);
+				if (n != 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
 				
 			}
 		}
