@@ -16,9 +16,12 @@ int main(void)
 		{
 			putchar(n);
 		}
-		putchar(n);
-		putchar(44);
-		putchar(32);
+		else
+		{
+			putchar(n);
+			putchar(44);
+			putchar(32);
+		}
 	}
 	return (0);
 }
