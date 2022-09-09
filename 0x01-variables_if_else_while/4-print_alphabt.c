@@ -14,8 +14,8 @@ int main(void)
 	{
 		if (n == 101 || n == 113)
 			continue;
-		putchar("n");
+		putchar(n);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
