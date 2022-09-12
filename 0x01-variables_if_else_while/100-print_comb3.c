@@ -18,14 +18,14 @@ int main(void)
 			{
 				putchar(m);
 				putchar(n);
-				if (n != 57 && m != 57)
+				if ((n == 57) && (m == 57))
 				{
-					putchar(44);
-					putchar(32);
+					continue;
 				}
 				else
 				{
-					continue;
+					putchar(44);
+					putchar(32);
 				}
 			}
 		}
