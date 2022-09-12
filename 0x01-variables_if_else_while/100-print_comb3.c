@@ -20,7 +20,7 @@ int main(void)
 				putchar(n);
 				if ((n == 57) && (m == 57))
 				{
-					continue;
+					break;
 				}
 				else
 				{
