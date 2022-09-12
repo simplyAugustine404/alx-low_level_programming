@@ -20,7 +20,7 @@ int main(void)
 			{
 				for (n = 48; n <= 57; n++)
 				{
-					if ((k >= m) && (n > l))
+					if ((k <= m) && (n > l))
 					{
 						if (n < m)
 						{
