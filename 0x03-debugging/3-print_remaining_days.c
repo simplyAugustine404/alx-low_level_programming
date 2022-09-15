@@ -4,7 +4,7 @@
 /**
  * print_remaining_days - gives how many days are left in a year
  * @month: month in number format
- * @day: day of the month
+ * @day: day of the month as integer
  * @year: year
  * Return: void
  */
