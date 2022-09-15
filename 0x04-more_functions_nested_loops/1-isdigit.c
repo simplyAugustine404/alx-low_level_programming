@@ -8,7 +8,7 @@
  *
  */
 
-int _isupper(int c);
+int _isdigit(int c);
 {
 	if (48 <= c && c >= 57)
 		return (1);
