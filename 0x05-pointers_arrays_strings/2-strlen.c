@@ -10,7 +10,7 @@
 
 int _strlen(char *s)
 {
-	char v = *s;
+	char v[] = *s;
 	int n, i;
 
 	n = 0;
