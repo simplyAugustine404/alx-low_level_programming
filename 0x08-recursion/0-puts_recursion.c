@@ -6,7 +6,7 @@
  *
  */
 
-void _puts_recusrion(char *s)
+void _puts_recursion(char *s)
 {
 	unsigned int i = 0;
 
@@ -15,5 +15,5 @@ void _puts_recusrion(char *s)
 		_putchar('\n');
 	}
 	_putchar(*(s + i) + '0');
-	_putchar(*(s + (i + 1) ) + '0');
+	_puts_recursion(s + i);
 }
