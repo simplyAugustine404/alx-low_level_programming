@@ -6,6 +6,8 @@
  *
  * @name: name of the person
  * @f: function to modify
+ *
+ * Return: nothing
  */
 
 void print_name(char *name, void (*f)(char *))
