@@ -8,7 +8,7 @@
  * Return: Always 0
  */
 
-int main(int arc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a, b;
 	int (*operation)(int, int);
@@ -25,7 +25,7 @@ int main(int arc, char *argv[])
 		exit (99);
 	}
 
-	operation = get_opfunc(argv[2]);
+	operation = get_op_func(argv[2]);
 
 	if (operation == NULL)
 	{
