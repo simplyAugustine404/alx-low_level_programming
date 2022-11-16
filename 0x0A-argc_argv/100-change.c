@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 	c = atoi(argv[1]);
 
-	whiule (c > 0)
+	while (c > 0)
 	{
 		if (c >= 25)
 			c -= 25;
