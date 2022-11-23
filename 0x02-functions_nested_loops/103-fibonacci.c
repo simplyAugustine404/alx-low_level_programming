@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long unsigned int previous = 1, current = 2, next, sum = 0;
+	long int previous = 1, current = 2, next, sum = 0;
 
 	while (next < 4000000)
 	{
