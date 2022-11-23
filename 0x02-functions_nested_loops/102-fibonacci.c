@@ -18,9 +18,9 @@ int main(void)
 		previous = current;
 		current = next;
 		if (i == 47)
-			printf("%d\n", next);
+			printf("%lu\n", next);
 		else
-			printf("%d, ", next);
+			printf("%lu, ", next);
 	}
 
 	return (0);
