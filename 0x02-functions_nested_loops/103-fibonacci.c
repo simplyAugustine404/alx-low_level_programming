@@ -12,12 +12,13 @@ int main(void)
 
 	while (next < 4000000)
 	{
+		if (next % 2 == 0)
+			sum += next;
+
 		next = current + previous;
 		previous = current;
 		current = next;
 
-		if (next % 2 == 0)
-			sum += next;
 	}
 	printf("%lu\n", sum);
 
