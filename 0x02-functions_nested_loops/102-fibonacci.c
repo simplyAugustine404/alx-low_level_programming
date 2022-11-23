@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i, previous = 1, current = 2, next;
+	unsigned int i, previous = 1, current = 2, next;
 
 	printf("1, 2, ");
 
