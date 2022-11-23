@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	unsigned int i, previous = 1, current = 2, next;
+	unsigned long int previous = 1, current = 2, next;
+	int i;
 
 	printf("1, 2, ");
 
