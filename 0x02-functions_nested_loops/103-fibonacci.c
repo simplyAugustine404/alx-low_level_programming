@@ -8,16 +8,17 @@
 
 int main(void)
 {
-	long int previous = 1, current = 2, next, sum = 0;
+	long int previous = 1, next = 2, sum = 0;
+	int k;
 
 	while (next < 4000000)
 	{
 		if (next % 2 == 0)
 			sum += next;
 
-		next = current + previous;
-		previous = current;
-		current = next;
+		k = next;
+		next += previous;
+		previous = k;
 
 	}
 	printf("%lu\n", sum);
