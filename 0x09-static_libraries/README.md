@@ -1,1 +1,1 @@
-C - static libraries
+C- Dynamic libraries
